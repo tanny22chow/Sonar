@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-20T19:15:52.349Z",
+        "line": 2,
+        "name": "Demo Scenario",
+        "description": "",
+        "id": "demo-feature;demo-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the creds",
+            "match": {
+              "location": "CucumberDiSpring.steps.DemoSteps.the_creds()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "hit the endpoint",
+            "match": {
+              "location": "CucumberDiSpring.steps.DemoSteps.hit_the_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Purge happens",
+            "match": {
+              "location": "CucumberDiSpring.steps.DemoSteps.purge_happens()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-20T19:15:52.589Z",
+        "line": 6,
+        "name": "Demo Scenario2",
+        "description": "",
+        "id": "demo-feature;demo-scenario2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the creds",
+            "match": {
+              "location": "CucumberDiSpring.steps.DemoSteps.the_creds()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "hit the endpoint",
+            "match": {
+              "location": "CucumberDiSpring.steps.DemoSteps.hit_the_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Purge happens",
+            "match": {
+              "location": "CucumberDiSpring.steps.DemoSteps.purge_happens()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "demo feature",
+    "description": "",
+    "id": "demo-feature",
+    "keyword": "Feature",
+    "uri": "classpath:feature/Demo.feature",
+    "tags": []
+  }
+]

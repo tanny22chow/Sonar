@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="1.819">
+<testcase classname="demo feature" name="Demo Scenario" time="0.202">
+<system-out><![CDATA[Given the creds.............................................................passed
+When hit the endpoint.......................................................passed
+Then Purge happens..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="demo feature" name="Demo Scenario2" time="0.005">
+<system-out><![CDATA[Given the creds.............................................................passed
+When hit the endpoint.......................................................passed
+Then Purge happens..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
