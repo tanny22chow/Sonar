@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    stages  {
+        stage('build'){
+            steps{
+                 git 'https://github.com/tanny22chow/Sonar.git'
+            }
+           
+        }
+        stage('test') {
+            steps{
+                 bat 'set var=%cd%'
+                bat 'echo %var%'
+            }
+           
+        }
+    }
+}
