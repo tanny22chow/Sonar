@@ -1,13 +1,13 @@
 pipeline {
     agent any
     stages  {
-        stage('build'){
+        stage('get repo'){
             steps{
                  git 'https://github.com/tanny22chow/Sonar.git'
             }
            
         }
-        stage('test') {
+        stage('check') {
             steps{
                  bat 'cd CucumberDiSpring'
                  bat 'mvn clean test'
