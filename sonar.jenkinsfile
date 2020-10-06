@@ -9,8 +9,8 @@ pipeline {
         }
         stage('test') {
             steps{
-                 bat 'set var=%cd%'
-                bat 'echo %var%'
+                 bat 'cd CucumberDiSpring'
+                 bat 'mvn clean test'
             }
            
         }
