@@ -35,5 +35,9 @@ public class DemoSteps {
     public void purge2_happens() {
         System.out.println("purged with"+credential.getId());
     }
+    @Then("Purge happens")
+    public void purge3_happens() {
+        System.out.println("purged with"+credential.getId());
+    }
 
 }
